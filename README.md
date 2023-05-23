@@ -5,7 +5,7 @@ This project demonstrates the implementation of a Continuous Integration and Con
 
 
 **TeamMates**
-LIOR MATANA ,ELLA BENIS and.
+LIOR MATANA ,ELLA BENIS,HATEM ALIYAN and.
 
 .
 
