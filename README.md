@@ -3,6 +3,23 @@
 
 This project demonstrates the implementation of a Continuous Integration and Continuous Deployment (CI/CD) pipeline for a web application. It incorporates various DevOps tools and practices to automate the build, test, and deployment processes, providing a streamlined workflow for software development.
 
+
+**TeamMates**
+LIOR MATANA ,ELLA BENIS and.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+shai levi
+
+
 ## Project Overview
 
 The project utilizes the following components and technologies:
