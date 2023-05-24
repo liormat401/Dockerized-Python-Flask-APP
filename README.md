@@ -5,19 +5,7 @@ This project demonstrates the implementation of a Continuous Integration and Con
 
 
 **TeamMates**
-LIOR MATANA ,ELLA BENIS,HATEM ALIYAN and.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-shai levi
+LIOR MATANA ,ELLA BENIS,HATEM ALIYAN and SHAI LEVI.
 
 
 ## Project Overview
@@ -49,6 +37,9 @@ Before getting started, ensure that you have the following prerequisites:
 - Kubernetes: Set up a Kubernetes cluster or use a managed Kubernetes service like Amazon EKS.
 
 - Terraform: Install Terraform to provision the required infrastructure on AWS.
+
+![image](https://github.com/liormat401/Python-Flask-APP-/assets/126070709/31f5e91d-5252-4de5-9b0a-d62122f2a6a1)
+
 
 ## Acknowledgments
 Special thanks to Meir Yatskan for providing the initial
