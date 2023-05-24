@@ -69,3 +69,28 @@ def process():
 if __name__ == "__main__":
     app.debug = True
     app.run(host="0.0.0.0", port=8000)
+    
+app.config.update({
+    'TESTING': True,
+    'DEBUG': True,
+    'OIDC_CLIENT_SECRETS': 'auth.json',
+    'OIDC_ID_TOKEN_COOKIE_SECURE': True,
+    'OIDC_REQUIRE_VERIFIED_EMAIL': False,
+    'OIDC_USER_INFO_ENABLED': True,
+    'OIDC_OPENID_REALM': 'guess',
+    'OIDC_SCOPES': ['openid', 'profile'],
+    'OIDC_INTROSPECTION_AUTH_METHOD': 'client_secret',
+})
+
+oidc = OpenIDConnect(app)
+
+@app.route('/')
+@oidc.require_login
+def index():
+ return redirect('/home')
+
+@app.route('/home')
+def home():
+ session["victory"] = 0
+ return render_template('guess.html')
+    
